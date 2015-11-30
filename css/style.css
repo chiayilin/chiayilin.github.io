@@ -1,8 +1,27 @@
-h1 {
+* {
     color: blue;
-    font-size: 40px;
+    background-color: #EEE;
 }
 
-p {
-    font-size: 20px;
+.red {
+    color: red;
+    font-size: 40px;
+    background-color: #DED;
+}
+
+.green {
+    color: green;
+    font-size: 60px;
+    background-color: #EDF;
+}
+
+#test1 {
+    color: purple;
+    font-size: 70px;
+    background-color: #FFF;
+}
+
+#test {
+    color: gray;
+    font-size: 60px;
 }
