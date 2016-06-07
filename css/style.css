@@ -1,27 +1,28 @@
+/*一些基本設定*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
 * {
-    color: blue;
-    background-color: #EEE;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans Kannada', sans-serif, serif;
 }
 
-.red {
-    color: red;
-    font-size: 40px;
-    background-color: #DED;
+
+/*header*/
+
+h1 {
+    color: coral;
+    font-size: 1.8em;
 }
 
-.green {
-    color: green;
-    font-size: 60px;
-    background-color: #EDF;
+p {
+    font-size: 0.9em;
+    color: crimson;
 }
 
-#test1 {
-    color: purple;
-    font-size: 70px;
-    background-color: #FFF;
-}
 
-#test {
-    color: gray;
-    font-size: 60px;
-}
+/*
+.header {
+    background-color: cornflowerblue;
+    font-size: 50px;
+}*/
