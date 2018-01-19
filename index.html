@@ -3,100 +3,84 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/notosanskannada.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Chia Lin</title>
+    <title>Python web scraping</title>
 </head>
 
 <body>
-    <!--
-    <div class="header">
-        <h1>Chia Lin 食記</h1>
-        <p>喜歡旅遊，喜歡美食，喜歡體驗新奇的事物。 和大家分享旅遊所見所聞，以及生活的點點滴滴</p>
-        <div class="featured-image"></div>
-        <div class="nav">
+    <nav>
+        <h3>Python爬蟲爬爬看</h3>
+        <ul>
+            <li><a href="#">Menu1</a></li>
+            <li><a href="#">Menu2</a></li>
+            <li><a href="#">Menu3</a></li>
+            <li><a href="#">Menu4</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>我是h1大標題</h1>
+        <p>我是p我是p我是p我是p</p>
+    </header>
+    <div class="container">
+        <div class="post top">
+            <h1>2018-1-29</h1>
+            <h2>這是置頂文章</h2>
+            <p>第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容第一篇文章內容</p>
             <ul>
-                <li><a href="#">Album</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Guestbook</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="">我是項目li-1</a></li>
+                <li><a href="">我是項目li-2</a></li>
+                <li><a href="">我是項目li-3</a></li>
             </ul>
         </div>
+        <div class="post">
+            <h1>2018-1-30</h1>
+            <h3>我是h2這是第二篇文章標題</h3>
+            <p>第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容第二篇文章內容</p>
+        </div>
+        <div class="post">
+            <h1>2018-1-31</h1>
+            <h3>我是h2第三篇文章標題</h3>
+            <p>第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容第三篇文章內容</p>
+        </div>
+        <h3>來抓抓看下面表格中特殊身分的路人</h3>
+        <table>
+            <tr>
+                <th>標頭 1 </th>
+                <th>標頭 2 </th>
+                <th>標頭 3 </th>
+            </tr>
+            <tr>
+                <td>我是路人第2列第1</td>
+                <td>我是路人第2列第2</td>
+                <td>我是路人第2列第3</td>
+            </tr>
+            <tr>
+                <td class="orange">我是路人穿橘色外套</td>
+                <td>我是路人第3列第2</td>
+                <td>我是路人第3列第3</td>
+            </tr>
+            <tr>
+                <td>我是路人第4列第1</td>
+                <td><a href="http://www.google.com.tw" target="_blank">我是可以連到Google的路人</a></td>
+                <td><a href="https://www.w3schools.com/" target="_blank" id="secret">我不會告訴你我是誰</a></td>
+            </tr>
+            <tr>
+                <td>我是路人第5列第1</td>
+                <td>
+                    <ol>
+                        <li>我是另一種項目符號</li>
+                        <li class="sayhi">class是sayhi的路人</li>
+                    </ol>
+                </td>
+                <td>我是路人第5列第3</td>
+            </tr>
+        </table>
     </div>
--->
-    <header>
-        <h1>Chia Lin</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, perferendis.
-            <div class="featured-image"></div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </nav>
-        </p>
-    </header>
-    <!--   (article>h2{heading $}+p>lorem)*10-->
-    <article>
-        <h2>heading 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, nulla debitis! Tenetur quo eligendi repellat molestias odio nesciunt ipsum distinctio soluta dolorem, accusamus ab, delectus, eos enim nisi unde tempora?</p>
-    </article>
-    <article>
-        <h2>heading 2</h2>
-        <p>Eaque perspiciatis libero, modi dolorum possimus ex, quod harum voluptatibus at quis temporibus. In velit voluptatem voluptatibus facilis quaerat rem, sed quia. Rem natus facere quidem illum, incidunt distinctio rerum?</p>
-    </article>
-    <article>
-        <h2>heading 3</h2>
-        <p>Obcaecati cumque sequi vero quae esse delectus ut officia vitae aliquam consectetur sunt ex placeat itaque dolores quam optio velit, necessitatibus atque exercitationem voluptate blanditiis aspernatur, tenetur. Nihil, est, perspiciatis.</p>
-    </article>
-    <article>
-        <h2>heading 4</h2>
-        <p>Consequatur suscipit alias excepturi autem inventore, quidem fugiat culpa voluptates? Doloremque aut eveniet perspiciatis, molestias velit corrupti consequatur neque facilis quia minima. Nihil veniam porro provident, omnis, adipisci et tenetur?</p>
-    </article>
-    <article>
-        <h2>heading 5</h2>
-        <p>Porro inventore quibusdam explicabo adipisci exercitationem natus sed, magnam repellat perferendis laborum, est consequuntur dicta. Quam rem sequi quaerat eligendi quibusdam sed, id deserunt perferendis eius, aspernatur. Accusamus, dicta, asperiores.</p>
-    </article>
-    <article>
-        <h2>heading 6</h2>
-        <p>Tenetur eaque, facilis hic assumenda? Illum animi suscipit illo, assumenda quam harum, laborum nisi accusantium neque debitis sequi nostrum facere molestiae earum provident aliquam quod ad adipisci voluptatem veritatis eos?</p>
-    </article>
-    <article>
-        <h2>heading 7</h2>
-        <p>Ut quae sunt ducimus facilis culpa perferendis repudiandae facere ullam, deleniti explicabo hic est dolore. Hic doloremque odio nobis, quod minus possimus eaque vero, quae provident quia veniam quas amet.</p>
-    </article>
-    <article>
-        <h2>heading 8</h2>
-        <p>Fugit modi, sunt nam amet tempora illum adipisci quia, nesciunt tenetur impedit, optio consequuntur ad pariatur consequatur quis unde vero ipsa sapiente consectetur deserunt dignissimos dolore odit praesentium velit. Quas.</p>
-    </article>
-    <article>
-        <h2>heading 9</h2>
-        <p>Mollitia quod, molestias inventore cupiditate error, debitis nam amet maiores asperiores est neque qui earum corporis adipisci voluptates architecto doloribus soluta deserunt autem. Provident odio ullam, cum facere suscipit asperiores!</p>
-    </article>
-    <article>
-        <h2>heading 10</h2>
-        <p>Pariatur et quasi vero consectetur omnis, similique eos porro voluptas numquam placeat, alias tenetur aliquid neque fuga molestias, asperiores voluptates accusamus corporis ipsum! Maiores consectetur fugit minima architecto. Nisi, iure!</p>
-    </article>
-
+    <footer>copyright©2018 EAGOAR</footer>
 </body>
-
-
-
-
-
-
-
-
-
 
 </html>
